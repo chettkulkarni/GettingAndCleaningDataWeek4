@@ -58,3 +58,13 @@ processing Steps:-
 8]giving final touches to the data by updating the column names of completedData
 
 9]Writing the above created data set using write.table() and row.name=FALSE and name it tidy_data
+
+The Tidy data set is ready now.
+
+10]Aggregating values of all the columns grouped by activity and subject.
+# completeData_aggregated_means<-aggregate(completeData[,3:45], list(completeData$Subject,completeData$Activity), mean)
+
+11]Renaming columns for better readability.
+12]Writing the output to a file called agreegted_tidy_data.txt
+
+
