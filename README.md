@@ -62,7 +62,7 @@ processing Steps:-
 The Tidy data set is ready now.
 
 10]Aggregating values of all the columns grouped by activity and subject.
-# completeData_aggregated_means<-aggregate(completeData[,3:45], list(completeData$Subject,completeData$Activity), mean)
+#completeData_aggregated_means<-aggregate(completeData[,3:45], list(completeData$Subject,completeData$Activity), mean)
 
 11]Renaming columns for better readability.
 12]Writing the output to a file called agreegted_tidy_data.txt
